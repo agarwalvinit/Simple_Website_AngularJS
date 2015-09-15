@@ -1,0 +1,36 @@
+<!Doctype html>
+<html ng-app="App">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="description" content="my description">
+        <title>language transalate</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet"   href="http://fonts.googleapis.com/css?family=Lato:100,300,400" />
+    </head>
+    <body>
+        <header class="container group">
+            <h1 class="logo"><a href="index.html">Knott</a></h1>
+            <h3 class="tagline">Style your wedding with us</h3>
+            <nav class="nav primary-nav">
+                <a href="#/">Home</a>
+                <a href="#/venue">Venue</a>
+                <a href="#">Decors&amp;Planners</a>
+                <a href="#">Stylist</a>
+                <a href="#">cateres</a>
+            </nav>
+        </header>
+        <div ng-view></div>
+        <footer id="midFoot" class="container primary-footer group"><small>&copy; All rights are reserved</small>
+            <nav class="nav">
+                <a href="#/">Home</a>
+                <a href="#/venue">Venue</a>
+                <a href="#">Decors&amp;Planners</a>
+                <a href="#">Stylist</a>
+                <a href="#">cateres</a>
+            </nav>
+        </footer>
+        <script src="js/angular-1.4.5/angular.min.js"></script>
+        <script src="js/angular-1.4.5/angular-route.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
